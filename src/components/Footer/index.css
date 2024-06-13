@@ -1,0 +1,39 @@
+.footer-container {
+  background-color: #0d0a2c;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.footer-container h4 {
+  font-family: "Roboto";
+  color: rgb(223, 217, 217);
+  font-weight: 200;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  color: white;
+  margin-right: 12px;
+}
+
+.icons-container a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+  }
+
+  .icons {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+}

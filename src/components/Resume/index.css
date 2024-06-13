@@ -1,0 +1,71 @@
+.resume-container {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.resume-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 strong {
+  color: #0967d2;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.resume {
+  height: 360px;
+  width: 260px;
+}
+
+.resume-button {
+  background-color: transparent;
+  color: #0967d2;
+  font-family: "Roboto";
+  border: 2px solid #0967d2;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-container {
+  margin-top: 24px;
+}
+
+.resume-button:hover {
+  background-color: #0967d2;
+  color: white;
+  border: 0;
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  .resume {
+    height: 800px;
+    width: 600px;
+  }
+
+  .resume-button {
+    font-size: 20px;
+    padding: 16px;
+  }
+}

@@ -1,0 +1,136 @@
+.project-container {
+  margin: 0;
+  padding: 0;
+}
+
+.project-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-info-container {
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.works-heading {
+  font-family: "Roboto";
+}
+
+.works-heading strong {
+  color: #0967d2;
+}
+
+.works-heading + p {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.project-details-container {
+  box-shadow: 0 4px 5px 3px rgb(212, 210, 210);
+  border-radius: 7px;
+  height: 520px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 36px;
+}
+
+.project-image {
+  height: 200px;
+  width: 280px;
+}
+
+.project-title {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #323f4b;
+}
+
+.project-description {
+  font-family: "Roboto";
+  color: #323f4b;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.github-button {
+  font-family: "Roboto";
+  background-color: #0967d2;
+  color: white;
+  border-radius: 8px;
+  padding: 12px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.github-button:hover {
+  background-color: transparent;
+  border: 2px solid #0967d2;
+  color: #0967d2;
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.demo-button {
+  font-family: "Roboto";
+  background-color: transparent;
+  color: #0967d2;
+  border: 2px solid #0967d2;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.demo-button:hover {
+  background-color: #0967d2;
+  color: white;
+  border: 0px;
+}
+
+.project-links {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .project-layout-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-details-container {
+    width: 30%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    height: 520px;
+  }
+
+  .project-info-container {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+}

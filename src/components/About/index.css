@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.about-container {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.about-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  font-family: "Roboto";
+  font-size: 28px;
+}
+
+.about span {
+  color: #0967d2;
+}
+
+@media screen and (min-width: 991px) {
+  .about span {
+    font-size: 36px;
+  }
+
+  .about {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+}
+
+.about-description {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-description span {
+  color: #0967d2;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 991px) {
+  .about-description {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+.about-image {
+  height: 200px;
+  width: 280px;
+}
+
+.professional-skillset {
+  font-family: "Roboto";
+  font-size: 28px;
+}
+
+@media screen and (min-width: 991px) {
+  .about-image {
+    height: 280px;
+    width: 360px;
+  }
+}
+
+.professional-skillset span {
+  color: #0967d2;
+}
+
+.skills-layout-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-container {
+  border-radius: 8px;
+  box-shadow: 0 4px 5px 3px #0967d2;
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-info {
+  font-family: "Roboto";
+}
+
+.my-info span {
+  color: #0967d2;
+  font-weight: 500;
+}
+
+.details {
+  padding-top: 46px;
+  padding-left: 23px;
+}
+
+@media screen and (min-width: 992px) {
+  .layout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .skills-layout-container {
+    width: 90%;
+    max-width: 1110px;
+    padding-top: 40px;
+  }
+
+  .skill-container {
+    width: 200px;
+    height: 150px;
+    margin-right: 60px;
+    margin-bottom: 36px;
+  }
+
+  .details {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .my-info {
+    font-size: 20px;
+  }
+}
